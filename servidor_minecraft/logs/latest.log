@@ -1,0 +1,361 @@
+[29Nov2024 03:15:56.997] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[29Nov2024 03:15:57.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[29Nov2024 03:15:58.924] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mods-1.19.2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[29Nov2024 03:15:59.612] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mods-1.19.2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[29Nov2024 03:15:59.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mods-1.19.2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[29Nov2024 03:15:59.614] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mods-1.19.2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[29Nov2024 03:15:59.615] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mods-1.19.2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[29Nov2024 03:15:59.956] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[29Nov2024 03:15:59.959] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[29Nov2024 03:16:04.299] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Nov2024 03:16:04.510] [main/ERROR] [mixin/]: Mixin config mixins.oculus.compat.sodium.json does not specify "minVersion" property
+[29Nov2024 03:16:04.708] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[29Nov2024 03:16:04.709] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[29Nov2024 03:16:04.725] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Nov2024 03:16:04.919] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[29Nov2024 03:16:04.923] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29Nov2024 03:16:04.978] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[29Nov2024 03:16:05.225] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[29Nov2024 03:16:05.227] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[29Nov2024 03:16:05.340] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 78 options available, 1 override(s) found
+[29Nov2024 03:16:05.440] [main/WARN] [mixin/]: Reference map 'brrp-forge-forge-refmap.json' for brrp-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Nov2024 03:16:05.522] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[29Nov2024 03:16:06.678] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
+[29Nov2024 03:16:06.681] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
+[29Nov2024 03:16:06.907] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[29Nov2024 03:16:06.908] [main/WARN] [MixinExtras|Service/]: Found problematic active MixinExtras instance at ca.fxco.memoryleakfix.mixinextras (version 0.2.0-beta.6)
+[29Nov2024 03:16:06.909] [main/WARN] [MixinExtras|Service/]: Versions from 0.2.0-beta.1 to 0.2.0-beta.9 have limited support and it is strongly recommended to update.
+[29Nov2024 03:16:08.239] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (14.99 s after launch)
+[29Nov2024 03:16:08.670] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Nov2024 03:16:08.676] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Nov2024 03:16:08.867] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[29Nov2024 03:16:08.868] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[29Nov2024 03:16:11.225] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2969 milliseconds
+[29Nov2024 03:16:15.702] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Nov2024 03:16:19.693] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[29Nov2024 03:16:19.694] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[29Nov2024 03:16:19.925] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[29Nov2024 03:16:19.927] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[29Nov2024 03:16:20.733] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/mods-1.19.2/servidor_minecraft/config/ironfurnaces-client.toml is not correct. Correcting
+[29Nov2024 03:16:20.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.737] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.737] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_0 was corrected from null to its default, 80000. 
+[29Nov2024 03:16:20.739] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_1 was corrected from null to its default, 200000. 
+[29Nov2024 03:16:20.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.energy.tier_2 was corrected from null to its default, 1000000. 
+[29Nov2024 03:16:20.746] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.tier was corrected from null to its default, 0. 
+[29Nov2024 03:16:20.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.speed was corrected from null to its default, 160. 
+[29Nov2024 03:16:20.751] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.iron_furnace.generation was corrected from null to its default, 20. 
+[29Nov2024 03:16:20.755] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.tier was corrected from null to its default, 0. 
+[29Nov2024 03:16:20.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.speed was corrected from null to its default, 180. 
+[29Nov2024 03:16:20.760] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.copper_furnace.generation was corrected from null to its default, 20. 
+[29Nov2024 03:16:20.761] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.762] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.tier was corrected from null to its default, 1. 
+[29Nov2024 03:16:20.763] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.speed was corrected from null to its default, 120. 
+[29Nov2024 03:16:20.767] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.gold_furnace.generation was corrected from null to its default, 80. 
+[29Nov2024 03:16:20.769] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.770] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.tier was corrected from null to its default, 1. 
+[29Nov2024 03:16:20.771] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.speed was corrected from null to its default, 80. 
+[29Nov2024 03:16:20.773] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.diamond_furnace.generation was corrected from null to its default, 120. 
+[29Nov2024 03:16:20.775] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.tier was corrected from null to its default, 1. 
+[29Nov2024 03:16:20.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.speed was corrected from null to its default, 40. 
+[29Nov2024 03:16:20.779] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.emerald_furnace.generation was corrected from null to its default, 160. 
+[29Nov2024 03:16:20.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.tier was corrected from null to its default, 1. 
+[29Nov2024 03:16:20.786] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.speed was corrected from null to its default, 140. 
+[29Nov2024 03:16:20.787] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.silver_furnace.generation was corrected from null to its default, 50. 
+[29Nov2024 03:16:20.788] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.793] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.speed was corrected from null to its default, 40. 
+[29Nov2024 03:16:20.795] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.crystal_furnace.generation was corrected from null to its default, 180. 
+[29Nov2024 03:16:20.796] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.797] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.speed was corrected from null to its default, 20. 
+[29Nov2024 03:16:20.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.obsidian_furnace.generation was corrected from null to its default, 250. 
+[29Nov2024 03:16:20.803] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.speed was corrected from null to its default, 5. 
+[29Nov2024 03:16:20.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.netherite_furnace.generation was corrected from null to its default, 400. 
+[29Nov2024 03:16:20.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.810] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.million_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipe_cache was corrected from null to its default, 10. 
+[29Nov2024 03:16:20.812] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.813] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.speed was corrected from null to its default, 20. 
+[29Nov2024 03:16:20.815] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.power was corrected from null to its default, 9. 
+[29Nov2024 03:16:20.816] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.rainbow_generation was corrected from null to its default, 50000. 
+[29Nov2024 03:16:20.817] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.rainbow_furnace.generation was corrected from null to its default, 1000. 
+[29Nov2024 03:16:20.819] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.820] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key furnaces.recipeMaxXPLevel.level was corrected from null to its default, 100. 
+[29Nov2024 03:16:20.833] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.speed was corrected from null to its default, 5. 
+[29Nov2024 03:16:20.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.mult was corrected from null to its default, 16. 
+[29Nov2024 03:16:20.837] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.generation was corrected from null to its default, 1000. 
+[29Nov2024 03:16:20.839] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.allthemodium_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.846] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.847] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.speed was corrected from null to its default, 3. 
+[29Nov2024 03:16:20.848] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.mult was corrected from null to its default, 32. 
+[29Nov2024 03:16:20.849] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.generation was corrected from null to its default, 1500. 
+[29Nov2024 03:16:20.851] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.vibranium_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.853] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.854] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.speed was corrected from null to its default, 1. 
+[29Nov2024 03:16:20.855] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.mult was corrected from null to its default, 64. 
+[29Nov2024 03:16:20.857] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.generation was corrected from null to its default, 2000. 
+[29Nov2024 03:16:20.858] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_furnaces.unobtainium_furnace.tier was corrected from null to its default, 2. 
+[29Nov2024 03:16:20.874] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.875] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.876] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei was corrected from null to its default, true. 
+[29Nov2024 03:16:20.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_catalysts was corrected from null to its default, true. 
+[29Nov2024 03:16:20.878] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.jei.enable_jei_click_area was corrected from null to its default, true. 
+[29Nov2024 03:16:20.887] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.893] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.895] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.rainbow was corrected from null to its default, true. 
+[29Nov2024 03:16:20.897] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.errors was corrected from null to its default, false. 
+[29Nov2024 03:16:20.898] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.web was corrected from null to its default, false. 
+[29Nov2024 03:16:20.899] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.misc.lightupdates was corrected from null to its default, false. 
+[29Nov2024 03:16:20.909] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.910] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:20.910] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key updates.check_updates.updates was corrected from null to its default, true. 
+[29Nov2024 03:16:20.920] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[29Nov2024 03:16:20.933] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[29Nov2024 03:16:21.430] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[29Nov2024 03:16:21.433] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.coderbot.iris.Iris
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23181!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[29Nov2024 03:16:21.501] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[29Nov2024 03:16:21.503] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: reforgium, class link.infra.indium.Indium
+java.lang.ExceptionInInitializerError: null
+	at link.infra.indium.renderer.RenderMaterialImpl.<clinit>(RenderMaterialImpl.java:33) ~[reforgium-1.0.12a.jar%23166!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.materialFinder(ReforgiumRenderer.java:49) ~[reforgium-1.0.12a.jar%23166!/:?]
+	at link.infra.indium.renderer.ReforgiumRenderer.<clinit>(ReforgiumRenderer.java:32) ~[reforgium-1.0.12a.jar%23166!/:?]
+	at link.infra.indium.Indium.<init>(Indium.java:119) ~[reforgium-1.0.12a.jar%23166!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23181!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.fabricmc.fabric.api.renderer.v1.material.BlendMode.<clinit>(BlendMode.java:33) ~[reforgium-1.0.12a.jar%23166!/:?]
+	... 16 more
+[29Nov2024 03:16:21.704] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: enhancedblockentities, class foundationgames.enhancedblockentities.EnhancedBlockEntities
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+	at foundationgames.enhancedblockentities.EnhancedBlockEntities.<init>(EnhancedBlockEntities.java:41) ~[EnhancedBlockEntities-Reforged-1.19.2-0.8.0.jar%23145!/:1.19.2-0.8.0]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23181!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.item.ItemPropertyFunction
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[29Nov2024 03:16:21.732] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/mods-1.19.2/servidor_minecraft/config/exnihilosequentia-common.toml is not correct. Correcting
+[29Nov2024 03:16:21.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pebble was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.734] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pebble.pebbleDamage was corrected from null to its default, 0. 
+[29Nov2024 03:16:21.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.barrelNumberOfBuckets was corrected from null to its default, 1. 
+[29Nov2024 03:16:21.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.rainFillAmount was corrected from null to its default, 2. 
+[29Nov2024 03:16:21.735] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.woodBarrelMaxTemp was corrected from null to its default, 300. 
+[29Nov2024 03:16:21.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.showParticles was corrected from null to its default, true. 
+[29Nov2024 03:16:21.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.netherBarrelSoundsEnabled was corrected from null to its default, true. 
+[29Nov2024 03:16:21.736] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.mob_spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.737] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.mob_spawn.secondsToSpawnMobs was corrected from null to its default, 10. 
+[29Nov2024 03:16:21.737] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.compost was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.737] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.compost.maxSolidAmount was corrected from null to its default, 1000. 
+[29Nov2024 03:16:21.738] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.compost.secondsToCompost was corrected from null to its default, 10. 
+[29Nov2024 03:16:21.738] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.fluid_transform was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.738] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key barrel.fluid_transform.secondsToTransformFluid was corrected from null to its default, 10. 
+[29Nov2024 03:16:21.740] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crook was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.740] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crook.maxBonusStringCount was corrected from null to its default, 3. 
+[29Nov2024 03:16:21.741] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crook.minStringCount was corrected from null to its default, 2. 
+[29Nov2024 03:16:21.741] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crook.vanillaDropSimulateCount was corrected from null to its default, 3. 
+[29Nov2024 03:16:21.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.742] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible.ticksBetweenMelts was corrected from null to its default, 20. 
+[29Nov2024 03:16:21.743] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible.crucibleNumberOfBuckets was corrected from null to its default, 4. 
+[29Nov2024 03:16:21.744] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible.netherCrucibleSoundsEnabled was corrected from null to its default, true. 
+[29Nov2024 03:16:21.745] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible.wood was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.745] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crucible.wood.woodHeatRate was corrected from null to its default, 2. 
+[29Nov2024 03:16:21.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infested_leaves was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infested_leaves.secondsToTransformLeaves was corrected from null to its default, 10. 
+[29Nov2024 03:16:21.748] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infested_leaves.spreadChance was corrected from null to its default, 0.3. 
+[29Nov2024 03:16:21.749] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infested_leaves.ticksBetweenSpreadAttempt was corrected from null to its default, 100. 
+[29Nov2024 03:16:21.754] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.754] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.flattenSieveRecipes was corrected from null to its default, true. 
+[29Nov2024 03:16:21.755] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.sieveRange was corrected from null to its default, 2. 
+[29Nov2024 03:16:21.755] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.enableMeshDurability was corrected from null to its default, false. 
+[29Nov2024 03:16:21.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.meshStackSize was corrected from null to its default, 64. 
+[29Nov2024 03:16:21.758] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.maxSieveClicks was corrected from null to its default, 10. 
+[29Nov2024 03:16:21.772] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sieve.netherSieveSoundsEnabled was corrected from null to its default, true. 
+[29Nov2024 03:16:21.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableOreOverride was corrected from null to its default, false. 
+[29Nov2024 03:16:21.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableCopper was corrected from null to its default, true. 
+[29Nov2024 03:16:21.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableLead was corrected from null to its default, true. 
+[29Nov2024 03:16:21.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableNickel was corrected from null to its default, true. 
+[29Nov2024 03:16:21.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableSilver was corrected from null to its default, true. 
+[29Nov2024 03:16:21.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableTin was corrected from null to its default, true. 
+[29Nov2024 03:16:21.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableAluminum was corrected from null to its default, true. 
+[29Nov2024 03:16:21.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enablePlatinum was corrected from null to its default, true. 
+[29Nov2024 03:16:21.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableUranium was corrected from null to its default, true. 
+[29Nov2024 03:16:21.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableZinc was corrected from null to its default, true. 
+[29Nov2024 03:16:21.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableIron was corrected from null to its default, true. 
+[29Nov2024 03:16:21.784] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ore.enableGold was corrected from null to its default, true. 
+[29Nov2024 03:16:21.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerWoodValue was corrected from null to its default, 128. 
+[29Nov2024 03:16:21.797] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerStoneValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.797] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerIronValue was corrected from null to its default, 512. 
+[29Nov2024 03:16:21.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerGoldValue was corrected from null to its default, 64. 
+[29Nov2024 03:16:21.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerDiamondValue was corrected from null to its default, 4096. 
+[29Nov2024 03:16:21.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.hammer.hammerNetheriteValue was corrected from null to its default, 8192. 
+[29Nov2024 03:16:21.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookWoodValue was corrected from null to its default, 128. 
+[29Nov2024 03:16:21.799] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookStoneValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookAndesiteValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.800] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookGraniteValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.801] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookDioriteValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookGoldValue was corrected from null to its default, 64. 
+[29Nov2024 03:16:21.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookIronValue was corrected from null to its default, 512. 
+[29Nov2024 03:16:21.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookDiamondValue was corrected from null to its default, 2048. 
+[29Nov2024 03:16:21.804] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookNetheriteValue was corrected from null to its default, 8192. 
+[29Nov2024 03:16:21.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.crook.crookBoneValue was corrected from null to its default, 256. 
+[29Nov2024 03:16:21.805] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:21.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshStringValue was corrected from null to its default, 59. 
+[29Nov2024 03:16:21.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshFlintValue was corrected from null to its default, 131. 
+[29Nov2024 03:16:21.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshIronValue was corrected from null to its default, 250. 
+[29Nov2024 03:16:21.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshDiamondValue was corrected from null to its default, 1561. 
+[29Nov2024 03:16:21.808] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshEmeraldValue was corrected from null to its default, 1561. 
+[29Nov2024 03:16:21.809] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key durability.mesh.meshNetheriteValue was corrected from null to its default, 2031. 
+[29Nov2024 03:16:21.932] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[29Nov2024 03:16:21.933] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[29Nov2024 03:16:22.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/mods-1.19.2/servidor_minecraft/config/createaddition-common.toml is not correct. Correcting
+[29Nov2024 03:16:22.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.fe_at_max_rpm was corrected from null to its default, 480. 
+[29Nov2024 03:16:22.095] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.max_stress was corrected from null to its default, 16384. 
+[29Nov2024 03:16:22.095] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.audio_enabled was corrected from null to its default, true. 
+[29Nov2024 03:16:22.101] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.101] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
+[29Nov2024 03:16:22.105] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
+[29Nov2024 03:16:22.109] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.112] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.127] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.127] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_max_output was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.130] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_capacity was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.132] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
+[29Nov2024 03:16:22.140] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.142] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 120. 
+[29Nov2024 03:16:22.146] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 8. 
+[29Nov2024 03:16:22.153] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.154] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_input was corrected from null to its default, 1000. 
+[29Nov2024 03:16:22.155] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_output was corrected from null to its default, 1000. 
+[29Nov2024 03:16:22.156] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_wire_length was corrected from null to its default, 16. 
+[29Nov2024 03:16:22.158] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_light_connector_consumption was corrected from null to its default, 1. 
+[29Nov2024 03:16:22.159] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_input was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.160] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_output was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.163] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_wire_length was corrected from null to its default, 32. 
+[29Nov2024 03:16:22.163] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_ignore_face_check was corrected from null to its default, true. 
+[29Nov2024 03:16:22.164] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_allow_passive_io was corrected from null to its default, true. 
+[29Nov2024 03:16:22.168] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.169] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.169] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.173] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 2000000. 
+[29Nov2024 03:16:22.174] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_height was corrected from null to its default, 5. 
+[29Nov2024 03:16:22.175] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_width was corrected from null to its default, 3. 
+[29Nov2024 03:16:22.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.190] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_input was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.190] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_output was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.194] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.195] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 10000. 
+[29Nov2024 03:16:22.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 5000. 
+[29Nov2024 03:16:22.197] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 2000. 
+[29Nov2024 03:16:22.199] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 40000. 
+[29Nov2024 03:16:22.199] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1000. 
+[29Nov2024 03:16:22.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
+[29Nov2024 03:16:22.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
+[29Nov2024 03:16:22.202] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
+[29Nov2024 03:16:22.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
+[29Nov2024 03:16:22.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
+[29Nov2024 03:16:22.221] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
+[29Nov2024 03:16:22.224] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29Nov2024 03:16:22.224] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
+[29Nov2024 03:16:22.225] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.barbed_wire_damage was corrected from null to its default, 2.0. 
+[29Nov2024 03:16:24.123] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 3 errors found
+[29Nov2024 03:16:24.208] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 769fa122-6f73-4662-bd5a-79509092ab66
+[29Nov2024 03:16:24.211] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-11-29_03.16.24-fml.txt
+[29Nov2024 03:16:24.223] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 472f6251-0432-4cbf-b4da-c0a8141acb42
+[29Nov2024 03:16:24.258] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Oculus (oculus) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Reforgium (reforgium) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+	EnhancedBlockEntities (enhancedblockentities) has failed to load correctly
+§7java.lang.NoClassDefFoundError: net/minecraft/client/renderer/item/ItemPropertyFunction
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23180!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23184!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23179!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
